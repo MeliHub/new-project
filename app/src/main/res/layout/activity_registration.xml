@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reidius_white"
+    tools:context=".activity.RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Student No *"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:layout_below="@+id/id"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name *" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:layout_below="@+id/name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Surname *" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:layout_below="@+id/surname"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email *"/>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:maxLength="12"
+        android:layout_below="@+id/email"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="+27832800221 *"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:layout_below="@+id/contact"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/id"
+        android:layout_below="@+id/username"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password *"/>
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/id"
+        android:layout_below="@+id/password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password *"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnback"
+        android:onClick="onClick"
+        android:text="Continue"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

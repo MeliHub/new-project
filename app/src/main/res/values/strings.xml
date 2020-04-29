@@ -1,0 +1,37 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyC38CicSELzChHUU4tnP3xduNc5ZC3gsk8</string>
+    <string name="app_name">Overwatch Map</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Titles-->
+    <string name="sign_up">Registration</string>
+    <string name="report">Report Incident</string>
+    <string name="emergency">Emergency Services</string>
+    <string name="view_incident">Incidents</string>
+    <string name="final_registration">Final Registration</string>
+    <string name="closed">Closed Incidents</string>
+    <string name="progress">In Progress</string>
+
+    <!--Campus-->
+    <string-array name="campus">
+        <item></item>
+        <item>South Campus</item>
+        <item>North Campus</item>
+        <item>2nd Ave Campus</item>
+        <item>Missionvale Campus</item>
+    </string-array>
+
+    <!--Tab Names-->
+    <string name="closed_incidents">Closed Incidents</string>
+    <string name="in_progress">In Progress</string>
+    <string name="open_incidents">Opened Incidents</string>
+
+    <string name="register"><u>Register here</u></string>
+
+    <!--Shared preferences for saving login details
+    <string name="checkbox">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.checkbox</string>
+    <string name="username">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.username</string>
+    <string name="password">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.password</string>
+-->
+</resources>
